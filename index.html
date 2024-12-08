@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Documentation Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar"> 
+      <header>Documentation Page</header>
+      <ul>
+        <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+        <li><a href="#Variables" class="nav-link">Variables</a></li>
+        <li><a href="#Constants" class="nav-link">Constants</a></li>
+        <li><a href="#Data_Types" class="nav-link">Data Types</a></li>
+        <li><a href="#While_Statements" class="nav-link">While Statements</a></li>
+
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header
+        <p> JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, (a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
+        <p>JavaScript contains a standard library of objects, such as: Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example Client-side JavaScript and Server-side JavaScript.</p>
+      </section>
+      <section class="main-section" id="Variables">
+        <header>Variables</header>
+        <p>Variables use symbolic names for values in your application. The names of variables (identifiers) conform to certain rules.</p>
+        <code>var x = 42.</code>
+        <p>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).</p>
+        <code>let y = 13.</code>
+      </section>
+      <section class="main-section" id="Constants">
+        <header>Constants</header>
+        <p>The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter, underscore or dollar sign and can contain alphabetic, numeric, or underscore characters.</p>
+        <code>const PI = 3.14;</code>
+        <p>A constant cannot change value through assignment or be re-declared while the script is running. It has to be initialized to a value.You cannot declare a constant with the same name as a function or variable in the same scope.</p>
+        <code>const MY_OBJECT = {"key": "value"}; MY_OBJECT.key =
+"otherValue";</code>
+      </section>
+      <section class="main-section" id="Data_Types">
+        <header>Data Types</header>
+        <p>The latest ECMAScript standard defines seven data types:
+
+Six data types that are primitives:
+<ul>
+
+<li>Boolean. true and false.</li>
+<li>ull. A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.</li>
+<li>undefined. A top-level property whose value is undefined.</li>
+<li>Number. 42 or 3.14159.</li>
+<li>String. "Howdy"</li>
+<li>Symbol (new in ECMAScript 2015). A data type whose instances are unique and immutable.</li>
+</ul>
+And the other excluded data type is  Object.
+
+</p>
+        <p>Although these data types are a relatively small amount, they enable you to perform useful functions with your applications.</p>
+      </section>
+      <section class="main-section" id="While_Statements">
+        <header>While Statements</header>
+        <p>A while statement executes its statements as long as a specified condition evaluates to true</p>
+        <p>If the condition becomes false, statement within the loop stops executing and control passes to the statement following the loop.
+The condition test occurs before statement in the loop is executed. </p>
+<code>while (condition) statement</code>
+      </section>
+    </main>
+
+  </body>
+</html>
